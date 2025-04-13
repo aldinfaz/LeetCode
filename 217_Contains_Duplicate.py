@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        seen = set() #hashset == set in python
+        seen = set() #set and hashset are the same thing in python
 
         for num in nums:
             if num in seen:
